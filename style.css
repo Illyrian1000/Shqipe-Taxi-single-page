@@ -192,3 +192,57 @@ header {
 a {
   text-decoration: none;
 }
+
+@media only screen and (min-width: 500px) {
+  body {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .contactButtons {
+    all: unset;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .whatsApp,
+  .phone {
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 5px;
+  }
+
+  .whatsApp > p {
+    display: none;
+  }
+  .phone > p {
+    display: none;
+  }
+
+  .headerText {
+    position: relative;
+  }
+
+  .eagleLogo {
+    all: unset;
+    fill: #e7b943;
+    height: 84px;
+    position: absolute;
+    right: -120px;
+  }
+
+  * {
+    transform: scale(1);
+  }
+
+  .pricesContainer {
+    padding-bottom: 20px;
+  }
+}
