@@ -233,3 +233,14 @@ a {
     padding-bottom: 100px;
   }
 }
+
+.secondContainer {
+  background-image: url(tirana+city+view-min.jpg);
+  background-size: cover;
+}
+
+.secondContainer {
+  background-image: url(tirana+city+view-min.jpg);
+  background-size: cover;
+  background-position: 50% 35%;
+}
