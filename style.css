@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: nones;
+  text-decoration: none;
 }
 
 body {
@@ -108,10 +108,10 @@ header {
 .prices {
   width: 90%;
   margin-top: 20px;
-
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 500ms ease-out, transform 500ms ease-out;
+  cursor: pointer;
 }
 
 .priceCard {
@@ -233,12 +233,6 @@ a {
     padding-bottom: 100px;
   }
 }
-
-.secondContainer {
-  background-image: url(tirana+city+view-min.jpg);
-  background-size: cover;
-}
-
 .secondContainer {
   background-image: url(tirana+city+view-min.jpg);
   background-size: cover;
